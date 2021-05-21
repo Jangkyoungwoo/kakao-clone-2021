@@ -1,0 +1,41 @@
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 55px;
+  background-color:#F9F9FA;
+  position: fixed;
+  border-top: 1px solid #E6E6E6;
+  bottom: 0;
+  width:100%;
+  box-sizing: border-box; /*박스 사이즈를 늘리지 않기 위해 추가*/
+}
+
+.nav__link{
+  position: relative;
+}
+
+.nav__notification{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:25px;
+  height:25px;
+  background-color: #FF6229;
+  color:white;
+  border-radius: 50%;
+  position: absolute;
+  left: 19px;
+  bottom: 18px;
+}
+
+.nav__newNotification{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:5px;
+  height:5px;
+  background-color: #FF6229;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+}

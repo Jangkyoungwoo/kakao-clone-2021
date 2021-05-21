@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Kokoa talk</title>
+  <title>Friends</title>
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
@@ -26,18 +26,33 @@
     </div>
   </div>
 
-  <header class="welcome-header">
-    <h1 class="welcome-header__welcome">Welcome to KakaoTalk</h1>
-    <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
-  </header>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <i class="fas fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <span class="nav__notification">1</span>
+          <i class="far fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <i class="fas fa-search fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="#">
+          <span class="nav__newNotification"> </span>
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-  <form class="login-form action" action="friends.html" method="get">
-    <input type="text" name="username" placeholder="Email or phone number" required />
-    <input type="password" name="password" placeholder="password" required />
-    <input type="submit" value="Log in" />
-    <input type="submit" value="sign up" />
-    <a href="#">Find Kakao Account or password </a>
-  </form>
 
   <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
