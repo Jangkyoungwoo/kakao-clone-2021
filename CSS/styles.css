@@ -4,12 +4,12 @@
 /*Components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 /*Screen*/
 @import "screens/login.css";
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
   height: 1000vh;
 }
 
