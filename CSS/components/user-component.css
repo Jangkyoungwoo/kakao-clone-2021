@@ -1,0 +1,30 @@
+.user-component{
+  justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child{
+  display: flex;
+  align-items: center;
+}
+.user-component__img{
+  width:70px;
+  height:70px;
+  border-radius: 30px;
+}
+
+.user-component__text{
+  margin-left: 20px;
+}
+.user-component__title{
+  font-size: 23px;
+  font-weight: 600;
+}
+.user-component__subTitlte{
+  margin-top: 8px;
+  color:rgba(0, 0,0,0.5);
+  font-size: 17px;
+}
+.user-component__img--x1{
+  width:80px;
+  height:80px;
+}
