@@ -1,0 +1,52 @@
+#friends-display-link{
+  display: block;
+  text-align: center;
+  background-color: #FAFAFA;
+  padding: 10px;
+  color: #313131;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#friends-display-link i{
+  color:rgba(0, 0,0,0.3);
+  padding: 8px;
+}
+
+.friends-screen{
+  padding-left: var(--horizotal-space);
+}
+
+.user-component{
+  padding-bottom: 20px;
+}
+
+.friends-screen__channel{
+  border-top:1.1px solid rgba(0, 0,0,0.1);
+  color: rgba(0, 0,0,0.3);
+  font-weight: 600;
+}
+
+.friends-screen__channel--header{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__img--sm{
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title--channel{
+  font-size: 20px;
+  font-weight:500;
+}
+
+.user-component__column:last-child{
+  color: rgba(0, 0,0,0.3);
+  font-weight: 600;
+}
+
