@@ -2,10 +2,11 @@
   display: block;
   text-align: center;
   background-color: #FAFAFA;
-  padding: 10px;
+  padding:11px;
   color: #313131;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 
 #friends-display-link i{
@@ -15,10 +16,6 @@
 
 .friends-screen{
   padding-left: var(--horizotal-space);
-}
-
-.user-component{
-  padding-bottom: 20px;
 }
 
 .friends-screen__channel{
@@ -34,19 +31,9 @@
   justify-content: space-between;
 }
 
-.user-component__img--sm{
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
-}
-
 .user-component__title--channel{
   font-size: 20px;
   font-weight:500;
 }
 
-.user-component__column:last-child{
-  color: rgba(0, 0,0,0.3);
-  font-weight: 600;
-}
 
