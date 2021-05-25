@@ -19,7 +19,7 @@
 }
 
 .friends-screen__channel{
-  border-top: var(--main-border);
+  border-top:1.1px solid rgba(0, 0,0,0.1);
   color: rgba(0, 0,0,0.3);
   font-weight: 600;
 }
