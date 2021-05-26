@@ -1,3 +1,14 @@
+.screen-header__icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.screen-header__icons div:last-child{
+  margin-left: 30px;
+  position:relative;
+}
+
 .find-icons{
   display: flex;
   justify-content: space-between;
