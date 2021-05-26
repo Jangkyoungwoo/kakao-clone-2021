@@ -9,3 +9,13 @@
   border-radius: 50%;
   font-weight: 600;
 }
+
+.min-badge{
+  position: absolute;
+  width:5px;
+  height:5px;
+  background-color: #FF6229;
+  border-radius: 50%;
+  left:25px;
+  bottom: 20px;
+}
