@@ -4,11 +4,19 @@
   align-items: center;
   padding:35px;
   padding-top: 57px;
+  padding-bottom: 20px;
 }
+
 .screen-header__title{
   font-size: 29px;
   font-weight: 650;
 }
+
+.screen-heder__icons{
+  display: flex;
+  justify-content: space-between;
+}
+
 .screen-heder__icons span{
   margin-left: 29px;
 }
