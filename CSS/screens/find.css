@@ -1,3 +1,7 @@
+.screen-header{
+  padding-bottom: 55px;
+}
+
 .screen-header__icons{
   display: flex;
   flex-direction: row;
@@ -9,30 +13,10 @@
   position:relative;
 }
 
-.find-icons{
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i{
-  font-size: 30px;
-}
-
-.find-icons__icon span{
-  margin-top:18px;
-  font-weight: 600;
-}
-
 .recommended-friends{
   border-top: var(--main-border);
   border-bottom: var(--main-border);
-  padding-top: 25px;
+  padding: 25px;
   margin:25px 0px;
   font-weight: 600;
   opacity: var(--main-opacity);
@@ -51,7 +35,7 @@
   justify-content: space-between;
   opacity: var(--main-opacity);
   font-weight: 600;
-  margin-bottom: 20px;
+  
 }
 
 .open-chat__header span{
@@ -63,6 +47,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: var(--main-border);
 }
 
 .open-post__title{
@@ -71,7 +58,7 @@
   margin-bottom: 10px;
 }
 
-.open-post__hashtags{
+.open-post1__hashtags{
   text-transform: uppercase;
   opacity: 0.4;
   font-weight: 600;
@@ -130,5 +117,12 @@
 .open-post__like span{
   margin-left: 5px;
 }
+
+.open-post2__hashtags{
+  opacity: 0.4;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 
 
