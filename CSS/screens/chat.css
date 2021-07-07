@@ -88,4 +88,59 @@
   flex-direction: row-reverse;
 }
 
+.keyBored{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding:8px 20px;
+  box-sizing: border-box;
+}
 
+.keyBored-column:first-child{
+  width: 10%;
+}
+
+.keyBored-column:last-child{
+  width: 90%;
+  position: relative;
+}
+
+.keyBored i{
+  opacity: 0.5;
+}
+
+.keyBored-column:last-child >i,
+.keyBored button{
+  position: absolute;
+  right: -7px;
+  top: 2px;
+}
+
+.keyBored-column:last-child>i{
+  right: 55px;
+  top:9px
+}
+
+.keyBored input{
+  width: 95%;
+  padding:15px;
+  border-radius: 25px;
+  border:solid 1.5px rgba(0, 0, 0, 0.4);
+}
+
+.keyBored-column:last-child button{
+  border: solid 1px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  border: 0;
+  width: 44px;
+  height: 44px;
+}
+
+.keyBored button i{
+  opacity: 1;
+}
