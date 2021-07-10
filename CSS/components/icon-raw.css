@@ -17,3 +17,7 @@
   margin-top:25px;
   font-weight: 600;
 }
+
+.icon-raw__secondBar .icon-raw__icon:last-child{
+  margin-right:245px ;
+}
