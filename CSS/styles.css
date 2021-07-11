@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/icon-raw.css";
 @import "components/alt-header.css";
+@import "components/screen-size.css";
 /*Screen*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -19,7 +20,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  height: 500vh;
+  height: 100vh;
   padding-top:20px;
 }
 
