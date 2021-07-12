@@ -1,25 +1,47 @@
+.settings-list{
+  padding: 0px var(--horizotal-space);
+}
+
 .settings-setting{
   padding: 25px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.settings-setting:first-child{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .settings-setting:last-child{
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0;
 }
 
 .settings-setting__column-text{
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: 25px;
 }
 
 .settings-setting__column:last-child{
   font-size: 22px;
   opacity: 0.5;
+}
+
+.seperateBar{
+  border:1px solid rgba(0, 0, 0, 0.06);
+  margin:10px 0;
+}
+
+.settings-setting__column {
+  display: flex;
+  justify-content: center;
+}
+.settings-setting__column-badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 50%;
+  color:white;
+  margin-left: 10px;
 }
