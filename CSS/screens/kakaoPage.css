@@ -11,7 +11,7 @@ body{
 }
 
 .screen{
-  width: 340px; 
+  width: 360px; 
   background-color: white;
 }
 
@@ -21,6 +21,7 @@ header{
   align-items: center;
   padding: 45px 15px;
   background-color: #FFCE33;
+  position: relative;
 }
 
 .alt-header__column:first-child{
@@ -38,23 +39,27 @@ header{
 
 .search-bar{
   position: relative;
-  display: flex;
-  justify-content: center;
+  width:95%;
+  top:-30px;
+  margin:0 auto;
 }
+
 .search-bar input{
-  width: 320px;
+  width: 100%;
   height: 55px;
   border-radius: 25px;
   position: relative;
   padding:20px 30px;
   font-weight: 700;
   background-color: white;
+  border: 0;
+  box-shadow: 0 5px 5px -5px black;
 }
 
 .search-bar button{
   position: absolute;
   top:19px;
-  right:35px;
+  right:20px;
   border:0;
   background-color: white;
 }
@@ -64,7 +69,7 @@ header{
 }
 
 main{
-  padding:0 20px;
+  padding-left:20px;
 }
 
 .bookInfo{
@@ -102,6 +107,11 @@ main{
   margin-top: 15px;
 }
 
+.bookInfo-btn:last-child{
+  display: flex;
+  justify-content: space-between;
+}
+
 #first-row__btn{
   width: 75px;
   height: 25px;
@@ -109,4 +119,59 @@ main{
   border-radius: 5px;
   font-weight: 600;
   opacity: 0.9;
+}
+
+#second-row__btn:first-child{
+  background-color: #FFCE33;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0;
+}
+
+#second-row__btn:last-child{
+  width: 100px;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.bookList{
+  display: flex;
+  overflow-x: auto;
+}
+
+.book{
+  margin-right: 25px;
+}
+.bookImg{
+  width: 75px;
+  height: 110px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.starPoint i{
+  font-size: 1px;
+}
+
+.authorInfo{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.author-img{
+  width: 100px;
+  height: 130px;
+  background-color: black;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.author-explaination{
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.5;
 }
