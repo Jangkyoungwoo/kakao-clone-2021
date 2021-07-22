@@ -1,25 +1,7 @@
-* {
-  box-sizing: border-box;
-}
-
-body{
-  background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.screen{
-  width: 360px; 
-  background-color: white;
-}
-
-header{
-  width: 100%;
+.kakaoPage-header{
   display: flex;
   align-items: center;
-  padding: 45px 15px;
+  padding: 40px 15px;
   background-color: #FFCE33;
   position: relative;
 }
@@ -39,14 +21,14 @@ header{
 
 .search-bar{
   position: relative;
-  width:95%;
+  width:90%;
   top:-30px;
   margin:0 auto;
 }
 
 .search-bar input{
-  width: 100%;
-  height: 55px;
+  width: 90%;
+  height: 10px;
   border-radius: 25px;
   position: relative;
   padding:20px 30px;
@@ -72,8 +54,14 @@ main{
   padding-left:20px;
 }
 
+.first-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .bookInfo{
   display: flex;
+  margin-top: 20px;
 }
 
 .bookInfo-column:first-child{
@@ -86,6 +74,7 @@ main{
 
 .bookInfo-column >h3{
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .bookInfo-column span{
@@ -138,6 +127,12 @@ main{
   color: white;
 }
 
+.bookList-title{
+  margin-top:30px;
+  padding:10px 0;
+  font-weight: 600;
+  font-size: 20px;
+}
 .bookList{
   display: flex;
   overflow-x: auto;
@@ -157,6 +152,12 @@ main{
   font-size: 1px;
 }
 
+.author{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px 0;
+}
 .authorInfo{
   display: flex;
   margin-bottom: 30px;
@@ -168,6 +169,12 @@ main{
   background-color: black;
   border-radius: 5px;
   margin-right: 25px;
+}
+
+.authorInfo-column:last-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .author-explaination{
