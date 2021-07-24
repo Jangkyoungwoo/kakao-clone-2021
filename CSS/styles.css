@@ -18,6 +18,7 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 @import "screens/kakaoPage.css";
+@import "screens/musicList.css";
 
 body{
   font-family: 'Roboto', sans-serif;
